@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "6055f2a6-9998-498f-a995-430373c8e81a",
-            "Value": {
-                "id": "eb39a4ad-4f70-4992-a817-de8642010d42",
-                "resourcePath": "sprites\\spr_square\\spr_square.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "61a49ab8-877b-4d09-b25e-15c14e25b1d0",
             "Value": {
                 "id": "c20eb6f3-195b-499d-86d5-4b72ba7f791c",
