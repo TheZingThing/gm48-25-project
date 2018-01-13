@@ -1,21 +1,39 @@
-if distance_to_object(obj_player) <= 256
+if hit == false
 {
-	faceDir = sign(obj_player.x - x);
+	if distance_to_object(obj_player) <= 256
+	{
+		faceDir = sign(obj_player.x - x);
+		
+		hsp = mvspd * faceDir;
 	
-	hsp = mvspd * faceDir;
+		idle = false;
+	}
+
+	if place_meeting(x+hsp,y,obj_wall)
+	{
+		hsp = 0;
+	}
+	
+	if count <= 0 && idle = true
+	{
+		faceDir = sign(startx - x);
+	
+		hsp = mvspd * faceDir;
+	}
 }
 
-if place_meeting(x+hsp,y,obj_wall)
+if hit == true
 {
-	hsp = 0;
+	hsp -= 0.1;
+	
+	if hsp <= 0
+	{
+		hit = false;
+	}
 }
 
-if count <= 0
-{
-	faceDir = sign(startx - x);
-	
-	hsp = mvspd * faceDir;
-}
+if hp <= 0
+	instance_destroy();
 
 prevx = x;
 

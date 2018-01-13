@@ -4,3 +4,6 @@ mvspd = 4;
 faceDir = 0;
 count = 60;
 startx = x;
+idle = false;
+hit = false;
+hp = 2;

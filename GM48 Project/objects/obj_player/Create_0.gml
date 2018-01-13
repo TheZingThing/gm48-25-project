@@ -8,3 +8,4 @@ alarm[1] = 0;
 alarm[2] = 0;
 attacking = false;
 last_xmove = 1;
+meleeCollide = false;
