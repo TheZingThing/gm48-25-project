@@ -6,17 +6,18 @@ scr_inputs();
 
 hsp = mvspd * (key_right - key_left);
 
-if position_meeting(x,y,obj_wall)
+if place_meeting(x,y+1,obj_wall)
 {
 	vsp = -jumpHeight * key_jump;
 }
 
 
-if !position_meeting(x,y,obj_wall)
+if !place_meeting(x,y+1,obj_wall)
 {
 	vsp += grav;
 }
 
+scr_collision();
 	
-y += vsp;
 x += hsp;
+y += vsp;
