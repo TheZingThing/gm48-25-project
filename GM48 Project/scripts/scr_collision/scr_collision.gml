@@ -6,6 +6,11 @@ if place_meeting(x,y+vsp,obj_wall)
 	}
 }
 
+if !place_meeting(x,y+1,obj_wall)
+{
+	canParachute = true;
+}
+
 if place_meeting(x+hsp,y,obj_wall)
 {
 	hsp = 0;

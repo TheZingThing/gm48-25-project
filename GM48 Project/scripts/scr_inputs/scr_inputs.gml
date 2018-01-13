@@ -4,4 +4,6 @@ key_jump = keyboard_check_pressed(ord("W"));
 key_down = keyboard_check(ord("S"));
 key_attack = keyboard_check_pressed(vk_space);
 
+key_parachute = keyboard_check(ord("W"));
+
 scr_savelastmovement();
