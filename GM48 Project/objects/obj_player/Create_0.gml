@@ -8,9 +8,16 @@ alarm[1] = 0;
 alarm[2] = 0;
 alarm[3] = 0;
 alarm[4] = 0;
+alarm[5] = 0;
+
 attacking = false;
 last_xmove = 1;
 meleeCollide = false;
 hp = 3;
 hit = false;
 canParachute = false;
+towelWetness = 0;
+towelMaxWetness = 100;
+towelDrySpeed = 1;
+towelSoakSpeed = 1;
+towelDrying = true;
