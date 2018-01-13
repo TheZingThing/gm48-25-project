@@ -8,8 +8,5 @@ if place_meeting(x,y+vsp,obj_wall)
 
 if place_meeting(x+hsp,y,obj_wall)
 {
-	while place_meeting(x+hsp,y,obj_wall)
-	{
-		hsp = sign(hsp);
-	}
+	hsp = 0;
 }

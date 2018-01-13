@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "0b3104a6-2095-4a28-949e-ebcba795fb12",
+            "Value": {
+                "id": "8a69a656-ea27-43dc-9364-5cd57c3a8149",
+                "resourcePath": "scripts\\scr_savelastmovement\\scr_savelastmovement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "138ba8b8-fad9-4159-8550-fd9108765b7a",
+            "Value": {
+                "id": "664f7ebf-3100-4fdb-8081-10fa629784c0",
+                "resourcePath": "sprites\\spr_meleehitbox\\spr_meleehitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "18f5fc3b-420c-492e-bdde-59f8c7dfbf40",
             "Value": {
                 "id": "10867fef-0c51-43ab-9336-ba524471885d",
@@ -207,10 +223,34 @@
             }
         },
         {
+            "Key": "d4226d26-97de-4765-b746-64d1b81a91a8",
+            "Value": {
+                "id": "c71133fa-28c4-4460-aa01-4a53ebe47105",
+                "resourcePath": "scripts\\scr_movement\\scr_movement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e35177ee-dbe6-490a-8829-b4d2235362a2",
             "Value": {
                 "id": "431b0297-3e04-46b4-84f2-d40a0a905318",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e5d4826d-09c3-4b89-adf2-c3a890006f24",
+            "Value": {
+                "id": "0fbd2714-e170-4dfb-b62b-c0d4e7415ea0",
+                "resourcePath": "scripts\\scr_attack\\scr_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e9dcd226-f9f4-4cf2-9140-6ff575cafac2",
+            "Value": {
+                "id": "e7006ea9-452e-40e1-914f-41b37fa4f180",
+                "resourcePath": "objects\\obj_meleehitbox\\obj_meleehitbox.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -241,7 +281,10 @@
     ],
     "script_order": [
         "d2f161d4-4aae-4cfd-aea0-442269a03927",
-        "6d0cf9b5-ecc2-401d-8358-fcb28ba44f09"
+        "6d0cf9b5-ecc2-401d-8358-fcb28ba44f09",
+        "e5d4826d-09c3-4b89-adf2-c3a890006f24",
+        "d4226d26-97de-4765-b746-64d1b81a91a8",
+        "0b3104a6-2095-4a28-949e-ebcba795fb12"
     ],
     "tutorial": ""
 }
