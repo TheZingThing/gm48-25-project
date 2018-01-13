@@ -1,0 +1,1 @@
+instance_create_layer(x,y,"Clipping",obj_wall);
