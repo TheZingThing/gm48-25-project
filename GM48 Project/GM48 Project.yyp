@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0696a8c8-0656-486c-8048-3a7c9b69e664",
+            "Value": {
+                "id": "a46d0565-01a9-453d-894f-aaaaec3d1856",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "18f5fc3b-420c-492e-bdde-59f8c7dfbf40",
             "Value": {
                 "id": "10867fef-0c51-43ab-9336-ba524471885d",
@@ -47,14 +55,6 @@
             }
         },
         {
-            "Key": "2c97f277-4e3b-4048-b11f-04ddff5267f8",
-            "Value": {
-                "id": "9cdd35a9-4353-48de-a884-4a1d00b94ecd",
-                "resourcePath": "sprites\\sprite2\\sprite2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "33069bec-2829-4e33-ab17-bf0eeaf32fbc",
             "Value": {
                 "id": "aa8833e1-5c46-499a-8d70-b58491cabf32",
@@ -68,14 +68,6 @@
                 "id": "0819a312-1023-4cca-b224-f274f5d60366",
                 "resourcePath": "views\\40e9bea1-2209-4abc-9ed0-57c139c28d7f.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "44e62cd3-8a62-4d1e-92a2-789c1f5437ea",
-            "Value": {
-                "id": "bb867b1d-3458-4a5e-821f-a8f7acbbc734",
-                "resourcePath": "sprites\\sprite1\\sprite1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -135,14 +127,6 @@
             }
         },
         {
-            "Key": "6b029f7d-b618-4c60-b6ee-d238a1ca34a5",
-            "Value": {
-                "id": "52303697-e1ff-41d5-916e-8f60ac7cb254",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "89b465ab-6078-4209-86da-af0078bda89a",
             "Value": {
                 "id": "9943c5f6-679c-481c-85c8-77ffc81431da",
@@ -188,6 +172,30 @@
                 "id": "1884124e-88fb-44cc-9f72-f6ea5f0e4377",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd6afa86-9c94-40eb-a6ea-f68389a8f36e",
+            "Value": {
+                "id": "8f03fcfa-f8fd-44dd-a829-0bda2b8fc03f",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d14fe8e2-78b5-4fbf-b0da-c11bdab7ecb3",
+            "Value": {
+                "id": "bb42986f-2b65-4cab-9688-a2f94f9c476e",
+                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e35177ee-dbe6-490a-8829-b4d2235362a2",
+            "Value": {
+                "id": "431b0297-3e04-46b4-84f2-d40a0a905318",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
