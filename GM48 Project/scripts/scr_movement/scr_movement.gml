@@ -4,12 +4,11 @@ if place_meeting(x,y+1,obj_wall)
 {
 	vsp = -jumpHeight * key_jump;
 	canParachute = false;
+	alarm[4] = 0;
 }
 
 if key_jump
-{
-	jumping = true;
-}
+	alarm[4] = room_speed * 0.2;
 
 if !place_meeting(x,y+1,obj_wall)
 {
