@@ -10,6 +10,9 @@ scr_attack();
 //Check collisions
 scr_collision();
 
+//Check if the player is using parachute
+scr_parachute();
+
 if hp <= 0 && !hit
 {
 	room_restart();
