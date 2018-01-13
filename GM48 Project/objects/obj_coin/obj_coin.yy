@@ -1,10 +1,19 @@
 {
-    "id": "2559b169-5794-45a5-b987-62e14c7e2a3b",
+    "id": "758593e0-bb8b-41e5-8183-380314af9c43",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_wall",
+    "name": "obj_coin",
     "eventList": [
-        
+        {
+            "id": "503ab065-223e-4284-aff0-f65a2549a71c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "e35177ee-dbe6-490a-8829-b4d2235362a2",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "758593e0-bb8b-41e5-8183-380314af9c43"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "4e2fd2fd-5e82-4f35-900a-07c97f7ca16b",
-    "visible": false
+    "spriteId": "82cbdbc9-abf1-43e5-9966-6e557f45cd81",
+    "visible": true
 }
