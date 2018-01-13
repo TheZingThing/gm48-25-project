@@ -1,6 +1,6 @@
 hsp = 0;
 vsp = 0;
-mvspd = 4;
+mvspd = 6;
 grav = 1;
 jumpHeight = 20;
 alarm[0] = 0;
