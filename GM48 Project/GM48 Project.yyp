@@ -183,11 +183,27 @@
             }
         },
         {
+            "Key": "758593e0-bb8b-41e5-8183-380314af9c43",
+            "Value": {
+                "id": "0129dd8f-8ebd-4ab7-87cf-b16b802073dc",
+                "resourcePath": "objects\\obj_coin\\obj_coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "759684aa-063d-42ee-bd7b-4498282feeb4",
             "Value": {
                 "id": "97726b4b-8399-4d54-87fa-573589d30f56",
                 "resourcePath": "scripts\\scr_parachute\\scr_parachute.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "82cbdbc9-abf1-43e5-9966-6e557f45cd81",
+            "Value": {
+                "id": "d184ca7d-ec48-4e3d-9994-353b748bf05c",
+                "resourcePath": "sprites\\spr_coin\\spr_coin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -219,6 +235,14 @@
             "Value": {
                 "id": "75c4463e-12eb-4a4a-952e-4b34e06991d8",
                 "resourcePath": "objects\\obj_rat\\obj_rat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc8af36b-cb6b-4ef5-a2c3-ded3430ec4f4",
+            "Value": {
+                "id": "833e8de7-1445-46fe-9f10-d07145921423",
+                "resourcePath": "objects\\obj_gamemanager\\obj_gamemanager.yy",
                 "resourceType": "GMObject"
             }
         },
