@@ -1,0 +1,10 @@
+hsp = 0;
+vsp = 0;
+mvspd = 6;
+grav = 1;
+jumpHeight = 20;
+alarm[0] = 0;
+alarm[1] = 0;
+alarm[2] = 0;
+attacking = false;
+last_xmove = 1;
