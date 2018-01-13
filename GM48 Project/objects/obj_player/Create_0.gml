@@ -14,4 +14,3 @@ meleeCollide = false;
 hp = 3;
 hit = false;
 canParachute = false;
-jumping = false;

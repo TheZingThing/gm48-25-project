@@ -1,0 +1,1 @@
+draw_text(25,25,global.money);
