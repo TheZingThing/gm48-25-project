@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 var y_collided = false;
 
 place_meeting(x,y+vsp,obj_wall)
+=======
+if place_meeting(x,y+vsp,obj_wall)
+>>>>>>> master
 {
     while place_meeting(x,y+vsp,obj_wall)
     {
