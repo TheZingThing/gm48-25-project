@@ -18,5 +18,11 @@ if place_meeting(x+hsp,y,obj_wall)
     hsp = 0;
 }
 
+// On a water tile? Start absorbing water
+if place_meeting(x+hsp,y+vsp,obj_wet_block)
+{
+	towelDrying = false;
+}
+
 // Get the last y position in case we need it to break a collision loop
 last_y = y;
