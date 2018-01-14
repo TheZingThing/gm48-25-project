@@ -18,10 +18,10 @@ draw_set_colour(col2);
 
 // Math to scale the MaxWetness to the size of the towel bar.
 // Set y_bottom and ending y_top position if the graphic changes
-y_bottom = 755;
-y_top = 584;
-y_difference = y_bottom - y_top;
-y_scale = y_difference / obj_player.towelMaxWetness;
+var y_bottom = 755;
+var y_top = 584;
+var y_difference = y_bottom - y_top;
+var y_scale = y_difference / obj_player.towelMaxWetness;
 
 // Main wetness 
 draw_rectangle(930, y_bottom, 1020, y_bottom - (obj_player.towelWetness * y_scale), false);
@@ -29,4 +29,22 @@ draw_rectangle(930, y_bottom, 1020, y_bottom - (obj_player.towelWetness * y_scal
 // Gradient wetness
 draw_rectangle_colour(930,  755 - ((obj_player.towelWetness * y_scale) + 12), 1020, 755 - (obj_player.towelWetness * y_scale), col1, col1, col2, col2, false);
 
+draw_sprite(spr_towel_bar_chrome, 0, 0, 0);
+
+
+// Draw Hit points
+if(obj_player.hp = 2)
+{
+	draw_sprite(spr_hit2, 0, 0, 0);
+} 
+else if (obj_player.hp = 1) 
+{
+	draw_sprite(spr_hit1, 0, 0, 0);
+} 
+else if (obj_player.hp = 0) 
+{
+	draw_sprite(spr_hit0, 0, 0, 0);
+}
+
 draw_sprite(spr_hud, 0, 0, 0);
+
