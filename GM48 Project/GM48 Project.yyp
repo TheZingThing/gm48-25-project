@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "049ac956-2767-4552-b63c-6edda2d29228",
+            "Value": {
+                "id": "22e73267-bd9d-44dd-9a41-f0c4963dff94",
+                "resourcePath": "sounds\\coin\\coin.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0696a8c8-0656-486c-8048-3a7c9b69e664",
             "Value": {
                 "id": "a46d0565-01a9-453d-894f-aaaaec3d1856",
@@ -108,14 +116,6 @@
                 "id": "8a69a656-ea27-43dc-9364-5cd57c3a8149",
                 "resourcePath": "scripts\/scr_savelastmovement\/scr_savelastmovement.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "0c110176-1d3a-4c4a-9c48-390828ce1ce0",
-            "Value": {
-                "id": "b4f23f35-b193-4ca7-8332-cb783264fc0a",
-                "resourcePath": "objects\\obj_cigarette\\obj_cigarette.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -195,6 +195,14 @@
             "Value": {
                 "id": "ff3c5bf4-715d-4d52-87f9-b1c682881a9d",
                 "resourcePath": "sounds\\whip\\whip.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2c1afc83-2898-48d5-9bc6-990f6fdf2bd0",
+            "Value": {
+                "id": "ff2ba896-7764-4428-9d04-334379430294",
+                "resourcePath": "sounds\\title_loop\\title_loop.yy",
                 "resourceType": "GMSound"
             }
         },

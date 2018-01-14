@@ -53,3 +53,5 @@ if hp <= 0
 prevx = x;
 
 x += hsp;
+
+image_xscale =-faceDir;
