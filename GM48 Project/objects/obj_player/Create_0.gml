@@ -16,8 +16,10 @@ meleeCollide = false;
 hp = 3;
 hit = false;
 canParachute = false;
+
+// Towel Settings
 towelWetness = 0;
 towelMaxWetness = 100;
-towelDrySpeed = 1;
-towelSoakSpeed = 1;
+towelDrySpeed = 5;
+towelSoakSpeed = 10;
 towelDrying = true;

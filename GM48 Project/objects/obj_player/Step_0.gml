@@ -4,8 +4,10 @@ scr_inputs();
 //Check movement
 scr_movement();
 
-//Check if attacking
-scr_attack();
+// If towel is wet allow attacking
+if (towelWetness > 0) {
+	scr_attack();
+}
 
 //Check collisions
 scr_collision();

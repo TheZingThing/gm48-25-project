@@ -989,6 +989,25 @@
             }
         },
         {
+            "Key": "f47e98a2-8055-4583-9956-378488cd56d5",
+            "Value": {
+                "id": "80386eea-2f46-4a3d-a952-c2cea12d0dca",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_hud\/spr_hud.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f668f42e-bd94-455a-a8dd-e70eda00350d",
             "Value": {
                 "id": "37094afa-1d6d-4a0f-aeb3-988a9c3ea77b",
