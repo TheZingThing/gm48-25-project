@@ -34,8 +34,16 @@
             "Key": "0696a8c8-0656-486c-8048-3a7c9b69e664",
             "Value": {
                 "id": "a46d0565-01a9-453d-894f-aaaaec3d1856",
-                "resourcePath": "objects\/obj_block\/obj_block.yy",
+                "resourcePath": "objects\\obj_block\\obj_block.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0a84476f-296e-45b3-9c82-577ece3f74a2",
+            "Value": {
+                "id": "9046cb8b-c508-42e3-8be4-0782365261f7",
+                "resourcePath": "views\\0a84476f-296e-45b3-9c82-577ece3f74a2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
