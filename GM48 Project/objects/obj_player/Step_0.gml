@@ -28,5 +28,11 @@ if hp <= 0 && !hit
 	alarm[3] = room_speed * 0.5
 }
 
+//Cap health at 3
+if hp >> 3
+{
+	hp = 3;
+}
+
 x += hsp;
 y += vsp;
