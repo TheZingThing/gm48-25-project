@@ -1,7 +1,7 @@
 hsp = 0;
 vsp = 0;
 mvspd = 4;
-faceDir = 0;
+faceDir = 1;
 count = 60;
 startx = x;
 idle = false;

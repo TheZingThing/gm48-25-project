@@ -15,6 +15,9 @@ scr_collision();
 //Check if the player is using parachute
 scr_parachute();
 
+//Do player sprites
+scr_playersprite();
+
 // Alarm to keep the towel either drying or getting wet
 // Use towelDrying true/false
 if(alarm_get(5) <= 0) {
