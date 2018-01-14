@@ -20,6 +20,6 @@ canParachute = false;
 // Towel Settings
 towelWetness = 0;
 towelMaxWetness = 100;
-towelDrySpeed = 5;
-towelSoakSpeed = 10;
+towelDrySpeed = 1;
+towelSoakSpeed = 5;
 towelDrying = true;

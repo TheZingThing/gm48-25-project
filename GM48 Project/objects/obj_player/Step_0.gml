@@ -18,7 +18,7 @@ scr_parachute();
 // Alarm to keep the towel either drying or getting wet
 // Use towelDrying true/false
 if(alarm_get(5) <= 0) {
-	alarm[5] = room_speed * 0.5;
+	alarm[5] = room_speed * 0.1;
 }
 
 if hp <= 0 && !hit
