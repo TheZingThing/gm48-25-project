@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "7d70de12-22ea-42f9-9bf5-f8fb0de342e4",
+            "Value": {
+                "id": "3f98b185-f738-4e68-a909-031e25d4be18",
+                "resourcePath": "objects\\obj_spiketrap\\obj_spiketrap.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "80987fd1-a317-438e-b8fe-f63ef149efe2",
             "Value": {
                 "id": "7e25c150-be52-4acb-aed7-5c2bbc73ca27",
@@ -356,6 +364,14 @@
                 "id": "833e8de7-1445-46fe-9f10-d07145921423",
                 "resourcePath": "objects\/obj_gamemanager\/obj_gamemanager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bf9307ee-cb6d-4ada-bead-ac64ab9b01b0",
+            "Value": {
+                "id": "d9bd7a60-37b1-4612-a543-b34829db1ebb",
+                "resourcePath": "sprites\\spr_spiketrap\\spr_spiketrap.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
