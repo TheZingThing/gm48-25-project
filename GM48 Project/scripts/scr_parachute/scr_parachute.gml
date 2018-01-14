@@ -1,4 +1,4 @@
-if key_parachute && !floating && !place_meeting(x,y+1,obj_wall)
+if key_parachute && canParachute && !floating
 {
 	vsp = 2;
 		
@@ -11,7 +11,7 @@ if key_parachute && !floating && !place_meeting(x,y+1,obj_wall)
 else
 	grav = 1;
 	
-if place_meeting(x,y,obj_airway) && key_parachute && !place_meeting(x,y+1,obj_wall)
+if place_meeting(x,y,obj_airway) && key_parachute && canParachute
 {
 	floating = true;
 	vsp -= 0.2;
