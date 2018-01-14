@@ -1,5 +1,7 @@
 draw_set_color(c_white);
 draw_text(25,25,global.money);
+draw_set_color(c_red);
+draw_text(25,50,obj_player.hp);
 
 // This is a placeholder
 draw_text(50, 50, "Wetness " + string(obj_player.towelWetness));
