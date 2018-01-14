@@ -50,6 +50,9 @@ if hit == true
 if hp <= 0
 	instance_destroy();
 
+sprite_index = r_spr_rat;
+image_xscale = -faceDir;
+
 prevx = x;
 
 x += hsp;
