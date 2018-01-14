@@ -15,7 +15,6 @@ last_xmove = 1;
 meleeCollide = false;
 hp = 3;
 hit = false;
-canParachute = false;
 floating = false;
 
 // Towel Settings
