@@ -1,8 +1,8 @@
 {
-    "id": "13964a1f-3a72-43b8-8e72-1e1c9ddb07d2",
+    "id": "80987fd1-a317-438e-b8fe-f63ef149efe2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_door",
+    "name": "obj_airway",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "477eee6c-0313-4fd5-95d7-ec355640c40e",
+    "spriteId": "b5c312b2-caa6-4146-aa0f-b8fe8f8ebf48",
     "visible": true
 }

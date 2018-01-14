@@ -16,6 +16,7 @@ meleeCollide = false;
 hp = 3;
 hit = false;
 canParachute = false;
+floating = false;
 
 // Towel Settings
 towelWetness = 0;
