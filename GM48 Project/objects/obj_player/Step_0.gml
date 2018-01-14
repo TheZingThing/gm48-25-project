@@ -29,7 +29,7 @@ if hp <= 0 && !hit
 }
 
 //Cap health at 3
-if hp >> 3
+if hp >= 3
 {
 	hp = 3;
 }
