@@ -29,4 +29,20 @@ draw_rectangle(930, y_bottom, 1020, y_bottom - (obj_player.towelWetness * y_scal
 // Gradient wetness
 draw_rectangle_colour(930,  755 - ((obj_player.towelWetness * y_scale) + 12), 1020, 755 - (obj_player.towelWetness * y_scale), col1, col1, col2, col2, false);
 
+switch (obj_player.hp) {
+	case 3:
+        draw_sprite(spr_hit3, 0, 0, 0);
+        break;
+    case 2:
+        draw_sprite(spr_hit2, 0, 0, 0);
+        break;
+    case 1:
+        draw_sprite(spr_hit1, 0, 0, 0);
+        break;
+	case 0:
+        draw_sprite(spr_hit0, 0, 0, 0);
+        break;
+}
+
+
 draw_sprite(spr_hud, 0, 0, 0);
