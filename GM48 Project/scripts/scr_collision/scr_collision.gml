@@ -1,4 +1,4 @@
-var y_collided = false;
+y_collided = false;
  
 {
     while place_meeting(x,y+vsp,obj_wall)

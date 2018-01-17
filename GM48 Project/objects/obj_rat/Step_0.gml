@@ -50,8 +50,8 @@ if hit == true
 if hp <= 0
 	instance_destroy();
 
-sprite_index = r_spr_rat;
-image_xscale = -faceDir;
+if (faceDir == 1) sprite_index = r_spr_rat_right;
+if (faceDir == -1) sprite_index = r_spr_rat_left;
 
 prevx = x;
 

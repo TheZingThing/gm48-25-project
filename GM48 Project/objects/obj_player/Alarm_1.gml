@@ -1,6 +1,6 @@
 if meleeCollide == false
 {
-	var i = instance_create_layer(x+(attackDir*192),y-32,"Instances",obj_meleehitbox);
+	var i = instance_create_layer(x+(attackDir*192),y,"Instances",obj_meleehitbox);
 	alarm[2] = 5;
 	
 	with i
